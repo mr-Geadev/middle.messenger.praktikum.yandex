@@ -1,4 +1,4 @@
-import button from './button.component.hbs';
+import buttonTmpl from './button.component.hbs';
 import './button.component.scss';
 
-export default button;
+export default (text, style = 'primary') => buttonTmpl({text, style});

@@ -1,0 +1,20 @@
+.input {
+  padding: 10px;
+  height: 40px;
+  border: 1px solid #005B3F;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 17px;
+  line-height: 21px;
+
+  &::placeholder {
+    color: #C1C1C1;
+    text-transform: capitalize;
+  }
+
+  &__wrapper {
+    width: 100%;
+    display: inline-block;
+    height: 40px;
+  }
+}

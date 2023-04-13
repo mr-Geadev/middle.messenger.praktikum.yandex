@@ -1,3 +1,34 @@
-.green {
-    color: red;
+.auth-page {
+  height: 100vh;
+  display: flex;
+
+  &._revert { flex-direction: row-reverse; }
+  &._revert &__side-block { justify-content: flex-start; }
+  &._revert &__title { text-align: left; }
+
+  &__side-block {
+    width: 50%;
+    background-color: #005B3F;
+
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__title {
+    font-size: 50px;
+    line-height: 61px;
+    text-align: right;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+
+  &__content {
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+  }
 }

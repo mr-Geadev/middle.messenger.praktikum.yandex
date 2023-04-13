@@ -1,5 +1,36 @@
-.test {
-    button {
-        color: green;
+.button {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  text-transform: capitalize;
+
+  transition-property: color, background-color;
+  transition-timing-function: ease-out;
+  transition-duration: .2s;
+
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+
+  &._style {
+    &_primary {
+      background-color: #005B3F;
+      color: white;
+
+      &:hover, &:focus {
+        background-color: #003122;
+      }
     }
+
+    &_outline {
+      color: #005B3F;
+
+      &:hover, &:focus {
+        background-color: #EDFFF1;
+      }
+    }
+  }
 }
