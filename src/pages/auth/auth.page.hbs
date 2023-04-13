@@ -6,6 +6,10 @@
   </aside>
 
   <div class="auth-page__content">
-    {{{ authForm }}}
+    {{#if registration}}
+      {{{ registrationForm }}}
+    {{else}}
+      {{{ authForm }}}
+    {{/if}}
   </div>
 </article>
