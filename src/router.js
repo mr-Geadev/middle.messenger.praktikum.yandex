@@ -17,7 +17,6 @@ document.addEventListener('click', (event) => {
 function router(newPath) {
   history.pushState({}, 'newUrl', newPath);
   let route = routes.find(route => route.path === window.location.pathname);
-  console.log(1, root);
   root.innerHTML = route.component;
 }
 

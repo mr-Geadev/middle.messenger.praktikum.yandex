@@ -5,10 +5,15 @@ import './registration-form.layout.scss';
 import buttonComponent from "../../components/button/button.component";
 
 const fields = [
-  inputComponent('login'),
-  inputComponent('password', 'password'),
-  buttonComponent('Enter'),
-  buttonComponent('Create account', 'outline'),
+  inputComponent('EMail'),
+  inputComponent('Login'),
+  inputComponent('First Name'),
+  inputComponent('Last Name'),
+  inputComponent('Phone Number'),
+  inputComponent('Password', 'password'),
+  inputComponent('Repeat Password', 'password'),
+  buttonComponent('Create account'),
+  buttonComponent('Enter', 'outline'),
 ]
 
 export default () => registrationFormTmpl({

@@ -3,4 +3,4 @@ import './main.scss';
 import './router';
 
 const root = document.getElementById('root');
-// window.root = root;
+window.root = root;

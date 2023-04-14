@@ -1,4 +1,4 @@
-<article class="auth-page">
+<article class="auth-page {{ class }}">
   <aside class="auth-page__side-block">
     <h1 class="auth-page__title">
       Green <br> Messenger
@@ -6,10 +6,6 @@
   </aside>
 
   <div class="auth-page__content">
-    {{#if registration}}
-      {{{ registrationForm }}}
-    {{else}}
-      {{{ authForm }}}
-    {{/if}}
+    {{{ content }}}
   </div>
 </article>
