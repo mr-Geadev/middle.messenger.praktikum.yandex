@@ -1,0 +1,29 @@
+.icon-button {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #005B3F;
+
+  transition-property: background-color, color;
+  transition-timing-function: ease-out;
+  transition-duration: .2s;
+
+  cursor: pointer;
+
+  & > svg {
+    width: 30px;
+  }
+
+  &:hover {
+    background-color: #EDFFF1;
+  }
+
+  &._active {
+    background-color: #005B3F;
+    color: white;
+    cursor: default;
+  }
+}

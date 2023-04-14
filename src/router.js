@@ -1,5 +1,6 @@
 import authPage from "./pages/auth/auth.page";
 import errorPage from "./pages/error/error.page";
+import mainPage from "./pages/main/main.page";
 
 // TODO: make this class
 
@@ -8,6 +9,7 @@ const routes = [
   {path: '/registration', component: authPage(true)},
   {path: '/404', component: errorPage('not found')},
   {path: '/500', component: errorPage('server error')},
+  {path: '/main', component: mainPage()},
 ];
 
 document.addEventListener('click', (event) => {

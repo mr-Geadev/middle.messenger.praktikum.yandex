@@ -1,4 +1,4 @@
-import inputComponent from "../../components/input/input.component";
+import { inputComponent } from "../../components";
 
 import registrationFormTmpl from './registration-form.layout.hbs';
 import './registration-form.layout.scss';
