@@ -32,5 +32,14 @@
         background-color: #EDFFF1;
       }
     }
+
+    &_blue {
+      background-color: #0025EA;
+      color: white;
+
+      &:hover, &:focus {
+        background-color: #001a96;
+      }
+    }
   }
 }

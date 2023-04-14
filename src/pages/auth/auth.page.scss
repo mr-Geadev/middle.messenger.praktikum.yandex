@@ -1,6 +1,7 @@
 .auth-page {
   height: 100vh;
   display: flex;
+  transition: all 0.5s linear;
 
   &._revert { flex-direction: row-reverse; }
   &._revert &__side-block { justify-content: flex-start; }
