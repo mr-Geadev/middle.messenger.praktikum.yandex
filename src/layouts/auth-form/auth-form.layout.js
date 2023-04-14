@@ -5,8 +5,8 @@ import './auth-form.layout.scss';
 import buttonComponent from "../../components/button/button.component";
 
 const fields = [
-   inputComponent('login'),
-   inputComponent('password', 'password'),
+   inputComponent('Login', 'login'),
+   inputComponent('Password', 'password', 'password'),
    buttonComponent('Enter'),
    buttonComponent('Create account', 'outline'),
 ]

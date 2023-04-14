@@ -5,13 +5,13 @@ import './registration-form.layout.scss';
 import buttonComponent from "../../components/button/button.component";
 
 const fields = [
-  inputComponent('EMail'),
-  inputComponent('Login'),
-  inputComponent('First Name'),
-  inputComponent('Last Name'),
-  inputComponent('Phone Number'),
-  inputComponent('Password', 'password'),
-  inputComponent('Repeat Password', 'password'),
+  inputComponent('First Name', 'first_name'),
+  inputComponent('Last Name', 'second_name'),
+  inputComponent('Login', 'login'),
+  inputComponent('E-mail', 'email'),
+  inputComponent('Phone Number', 'phone'),
+  inputComponent('Password', 'password', 'password'),
+  inputComponent('Repeat Password', 'password_repeat', 'password'),
   buttonComponent('Create account'),
   buttonComponent('Enter', 'outline'),
 ]
