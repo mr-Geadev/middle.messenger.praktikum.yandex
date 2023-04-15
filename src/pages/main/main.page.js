@@ -1,8 +1,9 @@
 import mainPage from './main.page.hbs';
 import './main.page.scss';
 
-import navBarLayout from '/src/layouts/nav-bar/nav-bar.layout';
+import { navBar, chatList } from '/src/layouts';
 
 export default () => mainPage({
-  navbar: navBarLayout()
+  navbar: navBar(),
+  chatList: chatList(),
 });
