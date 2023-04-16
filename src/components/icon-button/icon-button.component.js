@@ -4,7 +4,8 @@ import './icon-button.component.scss';
 import { icon } from "../index";
 
 
-export default (iconName, active = false) => iconButtonTmpl({
+export default (iconName, size = 'big', isActive = false) => iconButtonTmpl({
   icon: icon(iconName),
-  class: active ? '_active' : ''
+  status: isActive ? '_active' : '',
+  size: `_${size}`
 });

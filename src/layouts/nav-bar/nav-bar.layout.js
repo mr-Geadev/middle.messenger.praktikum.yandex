@@ -5,7 +5,7 @@ import { iconButton } from "../../components";
 
 const BUTTONS = [
   iconButton('search'),
-  iconButton('message', true),
+  iconButton('message', 'big', true),
   iconButton('user'),
 ]
 
