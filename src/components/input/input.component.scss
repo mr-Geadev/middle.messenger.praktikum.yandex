@@ -1,7 +1,9 @@
+@import "/src/ui-kit/colors";
+
 .input {
   padding: 10px;
   height: 40px;
-  border: 1px solid #005B3F;
+  border: 1px solid $accent;
   border-radius: 10px;
   width: 100%;
   font-size: 17px;
@@ -9,7 +11,7 @@
   display: block;
 
   &::placeholder {
-    color: #C1C1C1;
+    color: $grayPreview;
   }
 
   &__wrapper {
@@ -18,7 +20,7 @@
   }
 
   &__label {
-    color: #676767;
+    color: $grayPreview;
     font-size: 8px;
     line-height: 10px;
     margin-left: 10px;

@@ -1,11 +1,10 @@
 import iconButtonTmpl from './icon-button.component.hbs';
 import './icon-button.component.scss';
 
-import { icon } from "../index";
-
+import { iconComponent } from "../index";
 
 export default (iconName, size = 'big', isActive = false) => iconButtonTmpl({
-  icon: icon(iconName),
+  icon: iconComponent(iconName),
   status: isActive ? '_active' : '',
   size: `_${size}`
 });

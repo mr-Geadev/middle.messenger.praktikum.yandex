@@ -1,3 +1,5 @@
+@import "/src/ui-kit/colors";
+
 .button {
   height: 40px;
   width: 100%;
@@ -17,28 +19,28 @@
 
   &._style {
     &_primary {
-      background-color: #005B3F;
-      color: white;
+      background-color: $accent;
+      color: $background;
 
       &:hover, &:focus {
-        background-color: #003122;
+        background-color: $accentDark;
       }
     }
 
     &_outline {
-      color: #005B3F;
+      color: $accent;
 
       &:hover, &:focus {
-        background-color: #EDFFF1;
+        background-color: $accentLight;
       }
     }
 
     &_blue {
-      background-color: #0025EA;
-      color: white;
+      background-color: $blue;
+      color: $background;
 
       &:hover, &:focus {
-        background-color: #001a96;
+        background-color: $blue;
       }
     }
   }

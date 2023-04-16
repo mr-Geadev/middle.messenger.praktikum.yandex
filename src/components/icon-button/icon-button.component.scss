@@ -1,10 +1,11 @@
-.icon-button {
+@import "/src/ui-kit/colors";
 
+.icon-button {
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  color: #005B3F;
+  color: $accent;
 
   transition-property: background-color, color;
   transition-timing-function: ease-out;
@@ -31,12 +32,12 @@
   }
 
   &:hover {
-    background-color: #EDFFF1;
+    background-color: $accentLight;
   }
 
   &._active {
-    background-color: #005B3F;
-    color: white;
+    background-color: $accent;
+    color: $background;
     cursor: default;
   }
 }

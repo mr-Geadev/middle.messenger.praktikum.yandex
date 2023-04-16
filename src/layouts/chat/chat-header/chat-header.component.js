@@ -1,7 +1,8 @@
 import chatHeaderTmpl from './chat-header.component.hbs';
 import './chat-header.component.scss';
-import {iconButton} from "../../../components";
+
+import { iconButtonComponent } from "../../../components";
 
 export const chatHeaderComponent = () => chatHeaderTmpl({
-  actionButton: iconButton('moreHorizontal', 'medium')
+  actionButton: iconButtonComponent('moreHorizontal', 'medium')
 });

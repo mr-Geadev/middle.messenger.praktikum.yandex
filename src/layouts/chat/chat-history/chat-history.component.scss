@@ -1,8 +1,10 @@
+@import "/src/ui-kit/colors";
+
 .chat-history {
   width: 100%;
   padding: 20px;
 
-  background-color: rgba(243, 243, 243, 0.74);
+  background-color: $grayPreview;
 
   display: flex;
   flex-direction: column;

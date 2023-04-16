@@ -1,7 +1,7 @@
-import { buttonComponent } from "../../components";
-
 import errorPage from './error.page.hbs';
 import './error.page.scss';
+
+import { buttonComponent } from "../../components";
 
 const ERRORS = [
   {

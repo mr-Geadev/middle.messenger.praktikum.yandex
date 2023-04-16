@@ -1,6 +1,6 @@
-import authPage from "./pages/auth/auth.page";
-import errorPage from "./pages/error/error.page";
-import mainPage from "./pages/main/main.page";
+import authPage from "../pages/auth/auth.page";
+import errorPage from "../pages/error/error.page";
+import mainPage from "../pages/main/main.page";
 
 // TODO: make this class
 

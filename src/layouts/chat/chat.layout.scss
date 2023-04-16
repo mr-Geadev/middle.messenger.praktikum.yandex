@@ -1,3 +1,5 @@
+@import "/src/ui-kit/colors";
+
 .chat {
   height: 100vh;
   width: 100%;
@@ -17,6 +19,6 @@
   }
 
   &__new-message {
-    border-top: 1px solid #C3C3C3;
+    border-top: 1px solid $grayDisabled;
   }
 }

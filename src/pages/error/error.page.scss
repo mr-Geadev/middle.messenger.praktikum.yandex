@@ -1,6 +1,8 @@
+@import "/src/ui-kit/colors";
+
 .error-page {
   height: 100vh;
-  color: #005B3F;
+  color: $accent;
 
   display: flex;
   flex-direction: column;
@@ -8,7 +10,7 @@
   justify-content: center;
 
   &._blue {
-    color: #0025EA;
+    color: $blue;
   }
 
   &__title {

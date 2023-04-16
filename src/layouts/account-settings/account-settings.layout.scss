@@ -1,3 +1,5 @@
+@import "/src/ui-kit/colors";
+
 .account-settings {
   height: 100%;
   display: flex;
@@ -9,7 +11,7 @@
     text-align: center;
     font-size: 30px;
     line-height: 36px;
-    color: #005B3F;
+    color: $accent;
   }
 
   &__content {

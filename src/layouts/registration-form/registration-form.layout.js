@@ -1,8 +1,7 @@
-import { inputComponent } from "../../components";
-
 import registrationFormTmpl from './registration-form.layout.hbs';
 import './registration-form.layout.scss';
-import buttonComponent from "../../components/button/button.component";
+
+import { inputComponent, buttonComponent } from "../../components";
 
 const fields = [
   inputComponent('First Name', 'first_name'),

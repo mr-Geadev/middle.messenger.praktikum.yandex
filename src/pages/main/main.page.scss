@@ -1,3 +1,5 @@
+@import "/src/ui-kit/colors";
+
 .main-page {
   height: 100vh;
   display: flex;
@@ -7,7 +9,7 @@
     width: 400px;
     display: flex;
     flex-direction: column;
-    border-right: 1px solid #C3C3C3;
+    border-right: 1px solid $grayDisabled;
 
     &-content {
       height: 100%;
@@ -16,7 +18,7 @@
   }
 
   &__navbar {
-    border-top: 1px solid #C3C3C3;
+    border-top: 1px solid $grayDisabled;
     flex-grow: 0;
   }
 
