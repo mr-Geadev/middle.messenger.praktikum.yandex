@@ -1,0 +1,13 @@
+.avatar-settings {
+  &__preview {
+    width: 300px;
+    height: 300px;
+    background: #D9D9D9;
+    border-radius: 10px;
+  }
+
+  &__buttons {
+    margin: 20px auto 0;
+    width: 200px;
+  }
+}

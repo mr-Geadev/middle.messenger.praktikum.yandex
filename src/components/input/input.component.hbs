@@ -1,10 +1,13 @@
 <div class="input__wrapper">
-<!--  <label class="input__label">{{ placeholder }}</label>-->
+  {{#if isShowLabel}}
+    <label class="input__label" for="{{ name }}">{{ placeholder }}</label>
+  {{/if}}
 
   <input
     class="input"
     type="{{ type }}"
     placeholder="{{placeholder}}"
     name="{{ name }}"
+    id="{{ name }}"
   >
 </div>

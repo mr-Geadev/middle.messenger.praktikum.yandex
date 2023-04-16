@@ -5,12 +5,15 @@ import mainPage from "./pages/main/main.page";
 // TODO: make this class
 
 const routes = [
+  {path: '/', component: authPage()},
   {path: '/auth', component: authPage()},
   {path: '/registration', component: authPage(true)},
   {path: '/404', component: errorPage('not found')},
   {path: '/500', component: errorPage('server error')},
   {path: '/chats', component: mainPage('chats')},
-  {path: '/account-settings', component: mainPage('account-settings')},
+  {path: '/account-settings-general', component: mainPage('account-settings-general')},
+  {path: '/account-settings-avatar', component: mainPage('account-settings-avatar')},
+  {path: '/account-settings-password', component: mainPage('account-settings-password')},
 ];
 
 document.addEventListener('click', (event) => {

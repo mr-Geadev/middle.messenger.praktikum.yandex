@@ -6,6 +6,7 @@
   width: 100%;
   font-size: 17px;
   line-height: 21px;
+  display: block;
 
   &::placeholder {
     color: #C1C1C1;
@@ -14,6 +15,15 @@
   &__wrapper {
     width: 100%;
     display: inline-block;
-    height: 40px;
+  }
+
+  &__label {
+    color: #676767;
+    font-size: 8px;
+    line-height: 10px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    display: block;
+    text-align: left;
   }
 }

@@ -4,6 +4,7 @@ import navBar from "./nav-bar/nav-bar.layout";
 import chatList from "./chat-list/chat-list.layout";
 import chat from "./chat/chat.layout";
 import accountSettingsMenu from "./account-settings-menu/account-settings-menu.layout";
+import accountSettings from "./account-settings/account-settings.layout";
 
 export {
   authForm,
@@ -11,5 +12,6 @@ export {
   navBar,
   chatList,
   chat,
-  accountSettingsMenu
+  accountSettingsMenu,
+  accountSettings
 }
