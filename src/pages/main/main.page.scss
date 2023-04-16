@@ -19,4 +19,8 @@
     border-top: 1px solid #C3C3C3;
     flex-grow: 0;
   }
+
+  &__content {
+    flex-grow: 1;
+  }
 }
