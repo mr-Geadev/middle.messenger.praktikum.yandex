@@ -1,10 +1,14 @@
 import mainPage from './main.page.hbs';
 import './main.page.scss';
 
-import { navBar, chatList, chat } from '/src/layouts';
+import { navBar, chatList, chat, accountSettingsMenu } from '/src/layouts';
 
-export default () => mainPage({
+const sections = [
+  { name: 'chats', aside: chatList(), content: chat() },
+  { name: 'account-settings', aside: accountSettingsMenu(), content: chat() },
+]
+
+export default (selectedSection = 'chats') => mainPage({
   navbar: navBar(),
-  chatList: chatList(),
-  chat: chat()
+  ...sections.find(section => section.name === selectedSection)
 });

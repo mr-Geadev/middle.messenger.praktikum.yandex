@@ -9,7 +9,8 @@ const routes = [
   {path: '/registration', component: authPage(true)},
   {path: '/404', component: errorPage('not found')},
   {path: '/500', component: errorPage('server error')},
-  {path: '/main', component: mainPage()},
+  {path: '/chats', component: mainPage('chats')},
+  {path: '/account-settings', component: mainPage('account-settings')},
 ];
 
 document.addEventListener('click', (event) => {
