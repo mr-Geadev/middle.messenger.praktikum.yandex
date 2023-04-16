@@ -11,6 +11,7 @@
 
   &__history {
     flex-grow: 1;
+    overflow-y: scroll;
   }
 
   &__new-message {
