@@ -1,7 +1,7 @@
 import generalTmpl from './general-info-settings.component.hbs';
 import './general-info-settings.component.scss';
 
-import { buttonComponent, inputComponent } from "../../../components";
+import { buttonComponent, inputComponent } from "/src/components";
 
 const inputList = [
   inputComponent('First Name', 'first_name', 'text', true),

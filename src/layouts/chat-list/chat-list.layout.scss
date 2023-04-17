@@ -1,4 +1,4 @@
-@import "/src/ui-kit/colors";
+@import "src/ui-kit/colors";
 
 .chat-list {
   width: 100%;
@@ -7,6 +7,6 @@
   flex-direction: column;
 
   & > *:not(:first-child) {
-    border-top: 1px solid $grayDisabled;;
+    border-top: 1px solid $grayDisabled;
   }
 }

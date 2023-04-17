@@ -1,8 +1,8 @@
 import authFormTmpl from './auth-form.layout.hbs';
 import './auth-form.layout.scss';
 
-import { inputComponent } from "../../components";
-import { buttonComponent } from "../../components";
+import { inputComponent } from "/src/components";
+import { buttonComponent } from "/src/components";
 
 const fields = [
    inputComponent('Login', 'login'),

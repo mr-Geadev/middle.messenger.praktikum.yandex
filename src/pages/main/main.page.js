@@ -1,7 +1,7 @@
 import mainPage from './main.page.hbs';
 import './main.page.scss';
 
-import { navBar, chatList, chat, accountSettingsMenu, accountSettings } from "../../layouts";
+import { navBar, chatList, chat, accountSettingsMenu, accountSettings } from "/src/layouts";
 
 const sections = [
   { name: 'chats', aside: chatList(), content: chat() },

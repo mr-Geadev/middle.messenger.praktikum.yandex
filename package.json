@@ -19,7 +19,9 @@
     "url": "https://github.com/mr-Geadev/middle.messenger.praktikum.yandex/issues"
   },
   "homepage": "https://github.com/mr-Geadev/middle.messenger.praktikum.yandex#readme",
-  "browserslist": ["> 0.5%, last 2 versions, not dead"],
+  "browserslist": [
+    "> 0.5%, last 2 versions, not dead"
+  ],
   "dependencies": {
     "@parcel/transformer-sass": "^2.8.3",
     "express": "^4.18.2",

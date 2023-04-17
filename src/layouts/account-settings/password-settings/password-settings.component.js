@@ -1,7 +1,7 @@
 import generalTmpl from './password-settings.component.hbs';
 import './password-settings.component.scss';
 
-import { buttonComponent, inputComponent } from "../../../components";
+import { buttonComponent, inputComponent } from "/src/components";
 
 const inputList = [
   inputComponent('Old password', 'oldPassword', 'password'),
