@@ -5,9 +5,9 @@
     "node": ">16.0.0"
   },
   "scripts": {
-    "dev": "parcel index.html --no-cache --port=3000",
+    "start": "parcel index.html --no-cache --port=3000",
     "build": "parcel build index.html --no-cache",
-    "start": "npm run build && node server.js"
+    "build:watch": "npm run build && node server.js"
   },
   "repository": {
     "type": "git",
