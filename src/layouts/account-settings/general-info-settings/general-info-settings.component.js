@@ -13,7 +13,7 @@ const inputList = [
 ]
 
 const buttonList = [
-  buttonComponent('Save'),
+  buttonComponent('Save', 'primary', 'submit'),
   buttonComponent('Cancel', 'outline'),
 ]
 

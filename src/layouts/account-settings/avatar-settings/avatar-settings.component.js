@@ -4,7 +4,7 @@ import './avatar-settings.component.scss';
 import { buttonComponent } from "/src/components";
 
 const buttonList = [
-  buttonComponent('Save'),
+  buttonComponent('Change Photo'),
 ]
 
 export const avatarSettingsComponent = () => avatarSettingsTmpl({ buttonList });
