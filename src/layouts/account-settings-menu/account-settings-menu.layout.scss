@@ -1,0 +1,17 @@
+.account-settings-menu {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  &__menu {
+    &-item:not(:first-child) {
+      margin-top: 10px;
+    }
+  }
+
+  &__footer {
+    margin-top: auto;
+    margin-bottom: 0;
+  }
+}

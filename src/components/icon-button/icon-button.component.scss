@@ -1,0 +1,43 @@
+@import "src/ui-kit/colors";
+
+.icon-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: $accent;
+
+  transition-property: background-color, color;
+  transition-timing-function: ease-out;
+  transition-duration: .2s;
+
+  cursor: pointer;
+
+  &._big {
+    width: 60px;
+    height: 60px;
+
+    & > svg {
+      width: 30px;
+    }
+  }
+
+  &._medium {
+    width: 40px;
+    height: 40px;
+
+    & > svg {
+      width: 30px;
+    }
+  }
+
+  &:hover {
+    background-color: $accentLight;
+  }
+
+  &._active {
+    background-color: $accent;
+    color: $background;
+    cursor: default;
+  }
+}

@@ -1,0 +1,47 @@
+@import "src/ui-kit/colors";
+
+.button {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  text-transform: capitalize;
+
+  transition-property: background-color, color;
+  transition-timing-function: ease-out;
+  transition-duration: .2s;
+
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+
+  &._style {
+    &_primary {
+      background-color: $accent;
+      color: $background;
+
+      &:hover, &:focus {
+        background-color: $accentDark;
+      }
+    }
+
+    &_outline {
+      color: $accent;
+
+      &:hover, &:focus {
+        background-color: $accentLight;
+      }
+    }
+
+    &_blue {
+      background-color: $blue;
+      color: $background;
+
+      &:hover, &:focus {
+        background-color: $blue;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="reset.css">
+
+  <style>
+    .page-switcher {
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        right: 0;
+        background-color: wheat;
+        display: flex;
+        flex-direction: column;
+    }
+  </style>
+</head>
+<body>
+  <nav class="page-switcher">
+    <a href="/auth">авторизация</a>
+    <a href="/registration">регистрация</a>
+    <a href="/404">404</a>
+    <a href="/500">500</a>
+    <a href="/chats">chats</a>
+    <a href="/account-settings-general">account settings main</a>
+    <a href="/account-settings-avatar">account settings avatar</a>
+    <a href="/account-settings-password">account settings password</a>
+  </nav>
+
+  <div id="root"></div>
+
+  <script src="src/index.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+@import "src/ui-kit/colors";
+
+.new-message {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+
+  &__input {
+    margin: 0 10px;
+    background: $grayBG;
+    border-radius: 10px;
+    padding: 10px;
+    flex-grow: 1;
+    font-size: 14px;
+    line-height: 17px;
+
+    &::placeholder {
+      color: $grayPreview;
+    }
+  }
+}

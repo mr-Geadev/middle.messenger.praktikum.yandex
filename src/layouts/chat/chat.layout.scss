@@ -1,0 +1,24 @@
+@import "src/ui-kit/colors";
+
+.chat {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 10;
+  }
+
+  &__history {
+    flex-grow: 1;
+    overflow-y: scroll;
+  }
+
+  &__new-message {
+    border-top: 1px solid $grayDisabled;
+  }
+}

@@ -1,0 +1,47 @@
+@import "src/ui-kit/colors";
+
+.message {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-color: $background;
+  color: $textBaseColor;
+
+  &__wrapper {
+    width: 100%;
+    display: flex;
+
+    &._isOwner {
+      justify-content: flex-end;
+    }
+  }
+
+  &._isOwner {
+    justify-content: flex-end;
+    background-color: $accent;
+    color: $background;
+  }
+
+  &._isOwner &__time {
+    color: $background;
+  }
+
+  &__text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  &__info {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__time {
+    color: $accent;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

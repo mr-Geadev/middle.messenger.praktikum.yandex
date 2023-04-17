@@ -1,0 +1,41 @@
+@import "src/ui-kit/colors";
+
+.chat-preview {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+
+  &__avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: $grayPreview;
+  }
+
+  &__main {
+    padding: 0 10px;
+    flex-grow: 1;
+  }
+
+  &__name {
+    font-size: 14px;
+    line-height: 17px;
+    color: $textBaseColor;
+  }
+
+  &__message {
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  &__time {
+    width: 30px;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+  }
+}

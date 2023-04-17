@@ -1,0 +1,31 @@
+@import "src/ui-kit/colors";
+
+.input {
+  padding: 10px;
+  height: 40px;
+  border: 1px solid $accent;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 17px;
+  line-height: 21px;
+  display: block;
+
+  &::placeholder {
+    color: $grayPreview;
+  }
+
+  &__wrapper {
+    width: 100%;
+    display: inline-block;
+  }
+
+  &__label {
+    color: $grayPreview;
+    font-size: 8px;
+    line-height: 10px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    display: block;
+    text-align: left;
+  }
+}

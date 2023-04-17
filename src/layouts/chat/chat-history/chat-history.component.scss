@@ -1,0 +1,16 @@
+@import "src/ui-kit/colors";
+
+.chat-history {
+  width: 100%;
+  padding: 20px;
+
+  background-color: $grayPreview;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  & > * {
+    margin-top: 10px;
+  }
+}

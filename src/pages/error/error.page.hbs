@@ -1,0 +1,15 @@
+{{#with error}}
+  <main class="error-page {{ classes }}">
+    <h2 class="error-page__title">
+      {{ title }}
+    </h2>
+
+    <p class="error-page__text">
+      {{{ text }}}
+    </p>
+
+    <div class="error-page__button-container">
+      {{{ button }}}
+    </div>
+  </main>
+{{/with}}

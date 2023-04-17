@@ -1,0 +1,20 @@
+@import "src/ui-kit/colors";
+
+.account-settings {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    color: $accent;
+  }
+
+  &__content {
+    margin-top: 40px;
+  }
+}

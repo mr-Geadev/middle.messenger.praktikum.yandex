@@ -1,0 +1,33 @@
+@import "src/ui-kit/colors";
+
+.error-page {
+  height: 100vh;
+  color: $accent;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &._blue {
+    color: $blue;
+  }
+
+  &__title {
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+  }
+
+  &__text {
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+  }
+
+  &__button-container {
+    margin-top: 20px;
+    width: 300px;
+  }
+}

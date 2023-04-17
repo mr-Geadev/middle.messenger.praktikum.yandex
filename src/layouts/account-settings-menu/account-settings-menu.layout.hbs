@@ -1,0 +1,13 @@
+<div class="account-settings-menu">
+  <ul class="account-settings-menu__menu">
+    {{#each menuItems}}
+      <li class="account-settings-menu__menu-item">
+        {{{ this }}}
+      </li>
+    {{~/each}}
+  </ul>
+
+  <div class="account-settings-menu__footer">
+    {{{ logoutButton }}}
+  </div>
+</div>
